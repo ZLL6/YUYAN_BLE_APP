@@ -1,0 +1,4 @@
+--cpu Cortex-M0 -g --apcs=interwork 
+-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\STM32F0xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include
+--pd "__UVISION_VERSION SETA 534" --pd "STM32F072xB SETA 1"
+--list .\listings\startup_stm32f072.lst --xref -o .\objects\startup_stm32f072.o --depend .\objects\startup_stm32f072.d "..\System\source\arm\startup_stm32f072.s"

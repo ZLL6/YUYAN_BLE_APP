@@ -1,0 +1,4 @@
+--c99 -c --cpu Cortex-M0 -g -O3 --apcs=interwork -I ..\LIB -I ..\LIB\inc -I ..\System\include -I ..\System\source -I ..\USR -I ..\BSP
+-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\STM32F0xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include
+-D__UVISION_VERSION="534" -DSTM32F072xB -DSTM32F072 -DUSE_STDPERIPH_DRIVER
+-o .\objects\data.o --omf_browse .\objects\data.crf --depend .\objects\data.d "..\BSP\data.c"

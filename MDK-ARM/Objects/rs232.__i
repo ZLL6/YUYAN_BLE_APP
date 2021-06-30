@@ -1,0 +1,6 @@
+-c --cpu Cortex-M0 -g -O2 --apcs=interwork --split_sections -I ..\LIB -I ..\LIB\inc -I ..\System\include -I ..\System\source -I ..\USR -I ..\BSP
+-I.\RTE\_LY-STM32F0
+-Ig:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include
+-Ig:\Keil_v5\ARM\CMSIS\Include
+-D__UVISION_VERSION="524" -DSTM32F072xB -DSTM32F072 -DUSE_STDPERIPH_DRIVER
+-o .\objects\rs232.o --omf_browse .\objects\rs232.crf --depend .\objects\rs232.d "..\BSP\rs232.c"
